@@ -19,7 +19,7 @@
 		"@types/node": "^12.12.7",
 		"@types/rimraf": "^2.0.3",
 		"jsoncodegen": "^1.0.1",
-		"jsoncodegen-test-json": "^1.0.0",
+		"jsoncodegen-test-json": "^1.1.0",
 		"jsoncodegen-types-for-generator": "^1.0.1",
 		"rimraf": "^3.0.0",
 		"typescript": "^3.7.2"

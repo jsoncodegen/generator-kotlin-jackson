@@ -5,10 +5,12 @@ package jsoncodegen.kotlinjacksontest.generated.parent.tests
  */
 data class JsonNumberEnumValueRootTest(
 	val arrayOfEnumValues: List<jsoncodegen.kotlinjacksontest.generated.JsonNumberEnum>,
+	val arrayOfArraysOfEnumValues: List<List<jsoncodegen.kotlinjacksontest.generated.JsonNumberEnum>>,
 	val arrayOfEnumValuesAndNulls: List<jsoncodegen.kotlinjacksontest.generated.JsonNumberEnum?>,
 	val arrayOfEnumValuesOrNull: List<jsoncodegen.kotlinjacksontest.generated.JsonNumberEnum>? = null,
 	val arrayOfEnumValuesAndNullsOrNull: List<jsoncodegen.kotlinjacksontest.generated.JsonNumberEnum?>? = null,
 	val mapOfEnumValues: Map<String, jsoncodegen.kotlinjacksontest.generated.JsonNumberEnum>,
+	val mapOfMapsOfEnumValues: Map<String, Map<String, jsoncodegen.kotlinjacksontest.generated.JsonNumberEnum>>,
 	val mapOfNullsAndEnumValues: Map<String, jsoncodegen.kotlinjacksontest.generated.JsonNumberEnum?>,
 	val mapOfEnumValuesOrNull: Map<String, jsoncodegen.kotlinjacksontest.generated.JsonNumberEnum>? = null,
 	val mapOfNullsAndEnumValuesOrNull: Map<String, jsoncodegen.kotlinjacksontest.generated.JsonNumberEnum?>? = null,
